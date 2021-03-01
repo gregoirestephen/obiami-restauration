@@ -47,7 +47,7 @@
 
 <div class="col-xl-2 col-lg-2 col-md-1">
 <div class="logo">
-<a href="/"><img src="{{asset('frontend')}}/img/logo/Obiami.png" alt="" width="60%;" height="60%;"></a>
+<a href="{{route('welcome')"><img src="{{asset('frontend')}}/img/logo/Obiami.png" alt="" width="60%;" height="60%;"></a>
 </div>
 </div>
 <div class="col-xl-10 col-lg-10 col-md-10">

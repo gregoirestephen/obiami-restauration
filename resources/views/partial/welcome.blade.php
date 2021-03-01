@@ -73,7 +73,7 @@
 </div>
 <div class="header-right-btn f-right d-none d-lg-block ml-20">
 <a href="#" class="border-btn header-btn">Commander un plat</a>
-@if ( isset($count))
+@if ( isset($count) && $count>0)
 <a href="#" class="border-btn header-btn">Vos reservations</a>
 @endif
 

@@ -170,7 +170,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a hr
 <div class="footer-social f-right d-flex">
 <h5 style="color: white;">Suivez-nous - </h5>
 <a href="#"><i class="fab fa-twitter"></i></a>
-<a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-facebook-f"></i></a>
 <a href="#"><i class="fas fa-globe"></i></a>
 <a href="#"><i class="fab fa-instagram"></i></a>
 </div>

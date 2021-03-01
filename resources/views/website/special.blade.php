@@ -20,7 +20,7 @@
         </div>
         </div>
         @empty
-            <p style="text-align: center; color:#ff5600;">Aucun repas renseigne dans cette categorie</p>
+            <p style="text-align: center; color:#ff5600; margin: auto 20%; ">Aucun repas renseigne dans cette categorie</p>
         @endforelse
 @endsection
 

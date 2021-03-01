@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="site.html">
-<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend')}}/img/logo/Obiami.png">
+<link rel="shortcut icon" type="image/x-icon" href="{{asset('frontend/img/logo/obiami.png')}}">
 
 <link rel="stylesheet" href="{{asset('frontend')}}/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{asset('frontend')}}/css/owl.carousel.min.css">
@@ -32,7 +32,7 @@
 <div class="preloader-inner position-relative">
 <div class="preloader-circle"></div>
 <div class="preloader-img pere-text">
-<img src="{{asset('frontend')}}/img/logo/Obiami.png" alt="">
+<img src="{{asset('frontend/img/logo/obiami.png')}}" alt="">
 </div>
 </div>
 </div>
@@ -47,7 +47,7 @@
 
 <div class="col-xl-2 col-lg-2 col-md-1">
 <div class="logo">
-<a href="{{route('welcome')}}"><img src="{{asset('frontend')}}/img/logo/Obiami.png" alt="" width="60%;" height="60%;"></a>
+<a href="{{route('welcome')}}"><img src="{{asset('frontend/img/logo/obiami.png')}}" alt="" width="60%;" height="60%;"></a>
 </div>
 </div>
 <div class="col-xl-10 col-lg-10 col-md-10">

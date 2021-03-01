@@ -10,6 +10,7 @@ use Intervention\Image\Image;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 
+
 class ArticleController extends Controller
 {
     //fonction de validation
@@ -27,7 +28,7 @@ class ArticleController extends Controller
     public function image_upload(){
         $temp=request('image')->store('uploads','public');
         $image=new Image();
-        $image->make("storage/".$temp);
+        $image::make(public_path("storage/".$temp));
         $image->resize(600,600);
         $image->save();
         return $temp;

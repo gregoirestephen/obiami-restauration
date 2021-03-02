@@ -6,9 +6,9 @@ use Faker\Factory;
 use App\Models\Article;
 use App\Models\Categorie;
 use Illuminate\Http\Request;
-use Image;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
+use Intervention\Image\Facades\Image;
 
 
 class ArticleController extends Controller

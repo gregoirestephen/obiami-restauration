@@ -6,7 +6,7 @@ use Faker\Factory;
 use App\Models\Article;
 use App\Models\Categorie;
 use Illuminate\Http\Request;
-use Intervention\Image\Image;
+use Image;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 
@@ -27,9 +27,10 @@ class ArticleController extends Controller
     //fonction d'upload d'image
     public function image_upload(){
         $temp=request('image')->store('uploads','public');
-        $image=new Image();
-        $image::make(public_path("storage/".$temp));
-        $image->resize(600,600);
+        $image = Image::make(public_path("storage/" . $temp))->fit(600,600);
+        // $image=new Image();
+        // $image::make(public_path("storage/".$temp));
+        // $image->resize(600,600);
         $image->save();
         return $temp;
     }

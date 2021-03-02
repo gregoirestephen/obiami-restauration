@@ -25,8 +25,8 @@ class ArticleController extends Controller
     }
 
     //fonction d'upload d'image
-    public function image_upload(Request $request){
-        $temp=$request->file('image')->store('uploads','public');
+    public function image_upload(){
+        $temp=request()->file('image')->store('uploads','public');
         // $image = Image::make(public_path("storage/" . $temp))->fit(600,600);
         $image= Image::make("/public/storage/" . $temp);
         $image->resize(600,600);

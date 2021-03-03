@@ -21,7 +21,7 @@
         </div>
         @empty
         <div  style="margin: auto 45% !important;">
-            <p style= "text-align: center; color:#ff5600; ">Aucun repas renseigne dans cette categorie</p>
+            <p style= "text-align: center; color:#ff5600; ">Aucun repas renseigne dans cette categorie AAAA</p>
         </div>
 
         @endforelse
